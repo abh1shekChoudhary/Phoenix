@@ -1,0 +1,38 @@
+project:
+  name: example-service
+  environment: development
+
+runtime:
+  language: java
+  framework: spring-boot
+  build_tool: maven
+
+execution:
+  start_command: mvn spring-boot:run
+  test_command: mvn test
+  working_directory: C:\Users\abhic\Desktop\Project\healer
+
+
+source:
+  source_dirs:
+    - src/main/java
+  test_dirs:
+    - src/test/java
+  config_files:
+    - application.yml
+    - application.properties
+
+failure_detection:
+  crash_keywords:
+    - Exception
+    - ERROR
+    - APPLICATION FAILED TO START
+
+ai:
+  enabled: true
+  max_tokens_per_request: 4000
+  max_cost_per_incident: 0.5
+
+safety:
+  auto_fix_enabled: false
+  max_fixes_per_hour: 3

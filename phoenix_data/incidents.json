@@ -1,0 +1,2394 @@
+{
+  "a4dbccc6-22b5-4a11-bbdd-cbed452e2a27": {
+    "id": "a4dbccc6-22b5-4a11-bbdd-cbed452e2a27",
+    "state": "AWAITING_APPROVAL",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T09:02:53.801774"
+  },
+  "bd2bcf37-cf9f-4f31-b527-8ce209e9a23b": {
+    "id": "bd2bcf37-cf9f-4f31-b527-8ce209e9a23b",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T09:34:18.919257"
+  },
+  "20b1028b-bc75-411d-a9b1-f694f156b79a": {
+    "id": "20b1028b-bc75-411d-a9b1-f694f156b79a",
+    "state": "CLOSED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T09:34:58.402067"
+  },
+  "fde18006-35b2-4d63-9723-984cd6794524": {
+    "id": "fde18006-35b2-4d63-9723-984cd6794524",
+    "state": "ANALYZED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T09:35:54.249254"
+  },
+  "22c2f38b-fd19-4e49-9dfc-a2aab22ed4da": {
+    "id": "22c2f38b-fd19-4e49-9dfc-a2aab22ed4da",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T10:14:46.938566"
+  },
+  "5f15719c-0b71-473f-93d3-afeb4d13fdd9": {
+    "id": "5f15719c-0b71-473f-93d3-afeb4d13fdd9",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T10:36:14.057231"
+  },
+  "c95d7e35-d264-431d-acdf-04640ff93a23": {
+    "id": "c95d7e35-d264-431d-acdf-04640ff93a23",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T10:46:04.917035"
+  },
+  "b52ac5bc-b6ef-4f0d-be4e-97e9b7a07f08": {
+    "id": "b52ac5bc-b6ef-4f0d-be4e-97e9b7a07f08",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T10:47:47.996332"
+  },
+  "35a1d644-10f7-49c8-9d64-09d73bf4c063": {
+    "id": "35a1d644-10f7-49c8-9d64-09d73bf4c063",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T10:48:48.663201"
+  },
+  "14d526ef-cf95-4a41-a68c-6969d3c14161": {
+    "id": "14d526ef-cf95-4a41-a68c-6969d3c14161",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T12:26:47.258597"
+  },
+  "433740a5-6bff-4d57-aa24-84ea7742fba6": {
+    "id": "433740a5-6bff-4d57-aa24-84ea7742fba6",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T12:28:13.210071"
+  },
+  "6fa5727e-0ef9-431e-8cf9-d303fb2b8a5e": {
+    "id": "6fa5727e-0ef9-431e-8cf9-d303fb2b8a5e",
+    "state": "RESOLVED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T12:38:39.900901"
+  },
+  "d315d2ca-91a5-4ff8-985c-47a11ec63546": {
+    "id": "d315d2ca-91a5-4ff8-985c-47a11ec63546",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T13:00:14.177772"
+  },
+  "9c5cb093-5185-4f88-9d21-af9ee9e1fca4": {
+    "id": "9c5cb093-5185-4f88-9d21-af9ee9e1fca4",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T13:27:58.288885"
+  },
+  "f1bbd6dc-72d6-4e36-b548-363dc143475d": {
+    "id": "f1bbd6dc-72d6-4e36-b548-363dc143475d",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-05T13:46:59.276801"
+  },
+  "e7dc96f1-4bf0-4367-9ae3-23a5d8629189": {
+    "id": "e7dc96f1-4bf0-4367-9ae3-23a5d8629189",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-05T13:47:05.535344"
+  },
+  "688f1100-8326-485e-a5bd-cca120f78b89": {
+    "id": "688f1100-8326-485e-a5bd-cca120f78b89",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T13:47:02.428879"
+  },
+  "14b36d90-1802-49b5-b383-3981e68488f0": {
+    "id": "14b36d90-1802-49b5-b383-3981e68488f0",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T13:47:05.491349"
+  },
+  "87ca2f09-2e54-48e9-9842-adef04e0c699": {
+    "id": "87ca2f09-2e54-48e9-9842-adef04e0c699",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-05T14:01:22.901587"
+  },
+  "a92db13a-1fd8-4c95-af8b-918ef1c5d2a7": {
+    "id": "a92db13a-1fd8-4c95-af8b-918ef1c5d2a7",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-05T14:01:32.789797"
+  },
+  "07b3a821-59e9-48ab-8ec5-744d6ebca05c": {
+    "id": "07b3a821-59e9-48ab-8ec5-744d6ebca05c",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T14:01:27.508860"
+  },
+  "17666085-d612-4c17-8a7f-9beb8d29c8ac": {
+    "id": "17666085-d612-4c17-8a7f-9beb8d29c8ac",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T14:01:32.737795"
+  },
+  "c310b79d-2e59-4bc3-bb14-f45e89154dd8": {
+    "id": "c310b79d-2e59-4bc3-bb14-f45e89154dd8",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-05T14:06:34.549501"
+  },
+  "969214cc-e1af-4642-b966-80524996f696": {
+    "id": "969214cc-e1af-4642-b966-80524996f696",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-05T14:14:17.048183"
+  },
+  "9fe9b853-e00a-4f03-89e2-b8d7dc880dfa": {
+    "id": "9fe9b853-e00a-4f03-89e2-b8d7dc880dfa",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T14:06:36.187666"
+  },
+  "d210e6a4-c707-4c5f-a1b8-d0aa24697e6f": {
+    "id": "d210e6a4-c707-4c5f-a1b8-d0aa24697e6f",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T14:06:38.486666"
+  },
+  "ccaa1a94-71b5-4303-a11a-f32fa485dcb0": {
+    "id": "ccaa1a94-71b5-4303-a11a-f32fa485dcb0",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T14:06:40.316047"
+  },
+  "635035f7-55a5-459e-9729-d0da94a7fdaa": {
+    "id": "635035f7-55a5-459e-9729-d0da94a7fdaa",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-05T14:14:17.008188"
+  },
+  "fe0ad805-649c-4fd7-a9fa-682d411eadbd": {
+    "id": "fe0ad805-649c-4fd7-a9fa-682d411eadbd",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T11:14:53.441055"
+  },
+  "469564ad-d8c4-4b3f-ba9b-c743e4b31ae4": {
+    "id": "469564ad-d8c4-4b3f-ba9b-c743e4b31ae4",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T11:16:24.953807"
+  },
+  "d44cb204-73c6-446c-9331-c6d6d5db33cc": {
+    "id": "d44cb204-73c6-446c-9331-c6d6d5db33cc",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:15:07.211680"
+  },
+  "93a8e270-5276-415b-b7c4-e23913cdaf7a": {
+    "id": "93a8e270-5276-415b-b7c4-e23913cdaf7a",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:15:27.550004"
+  },
+  "25a158a1-db8d-4bf6-bff7-2a601d8452ec": {
+    "id": "25a158a1-db8d-4bf6-bff7-2a601d8452ec",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:15:38.890903"
+  },
+  "6e161ffd-de42-47e0-bdf3-f219ec102708": {
+    "id": "6e161ffd-de42-47e0-bdf3-f219ec102708",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:15:54.002968"
+  },
+  "5ab7b6d7-e7e1-494f-9062-6e81d1eed8f7": {
+    "id": "5ab7b6d7-e7e1-494f-9062-6e81d1eed8f7",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:16:09.708389"
+  },
+  "de18db1a-7737-48a5-a409-50b4762fd589": {
+    "id": "de18db1a-7737-48a5-a409-50b4762fd589",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:16:24.914820"
+  },
+  "004f514c-6a4a-4754-89c8-90d0e954def2": {
+    "id": "004f514c-6a4a-4754-89c8-90d0e954def2",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T11:24:18.820247"
+  },
+  "0881df0e-75e4-4277-a848-319f6bdfddce": {
+    "id": "0881df0e-75e4-4277-a848-319f6bdfddce",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T11:25:21.854420"
+  },
+  "65ef758a-2300-4539-aac5-e081c3a89d93": {
+    "id": "65ef758a-2300-4539-aac5-e081c3a89d93",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:24:36.272655"
+  },
+  "13010d33-ca3c-40ab-a982-5a6764e4baba": {
+    "id": "13010d33-ca3c-40ab-a982-5a6764e4baba",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:24:51.409640"
+  },
+  "fa494262-1d30-4b2b-86b0-8a2833575f87": {
+    "id": "fa494262-1d30-4b2b-86b0-8a2833575f87",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:24:55.974649"
+  },
+  "5188f8c4-b910-4d7b-9cc7-fedf49896808": {
+    "id": "5188f8c4-b910-4d7b-9cc7-fedf49896808",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:25:19.421413"
+  },
+  "d974aa77-13aa-4718-9bff-e53aae99d11d": {
+    "id": "d974aa77-13aa-4718-9bff-e53aae99d11d",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:25:20.627415"
+  },
+  "f1dd5d5d-f550-4dcf-a0e4-f3655e105d16": {
+    "id": "f1dd5d5d-f550-4dcf-a0e4-f3655e105d16",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:25:21.811408"
+  },
+  "b7c6c754-89b4-4047-b51c-59e49edc92ba": {
+    "id": "b7c6c754-89b4-4047-b51c-59e49edc92ba",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T11:44:12.909679"
+  },
+  "61465984-f310-42cb-bc32-045198748af1": {
+    "id": "61465984-f310-42cb-bc32-045198748af1",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T11:45:56.257749"
+  },
+  "46a69400-bc33-4702-8b2a-5b0eb6e778c9": {
+    "id": "46a69400-bc33-4702-8b2a-5b0eb6e778c9",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:44:23.095638"
+  },
+  "b248a626-7945-41fb-9e41-bf7c58b279a8": {
+    "id": "b248a626-7945-41fb-9e41-bf7c58b279a8",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:44:48.441845"
+  },
+  "1ac5c420-84dc-460b-8162-9c7d79c7d6bf": {
+    "id": "1ac5c420-84dc-460b-8162-9c7d79c7d6bf",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:45:04.551771"
+  },
+  "1cdb3ae0-42a2-4218-b252-06b4348d0238": {
+    "id": "1cdb3ae0-42a2-4218-b252-06b4348d0238",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:45:24.424791"
+  },
+  "b918c4d1-8191-46a9-a6e9-c180284bba9f": {
+    "id": "b918c4d1-8191-46a9-a6e9-c180284bba9f",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:45:56.219748"
+  },
+  "e253492c-1f4b-4fd3-acdb-0fc7dfc133b6": {
+    "id": "e253492c-1f4b-4fd3-acdb-0fc7dfc133b6",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T11:59:11.243231"
+  },
+  "df078707-32d1-4394-a0e3-44544c464576": {
+    "id": "df078707-32d1-4394-a0e3-44544c464576",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:00:27.965963"
+  },
+  "7de41ce8-9f5a-424a-9408-772cd6c65762": {
+    "id": "7de41ce8-9f5a-424a-9408-772cd6c65762",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:59:21.232417"
+  },
+  "84e4f427-2cbc-4f6b-bbc3-8bfccb83c69e": {
+    "id": "84e4f427-2cbc-4f6b-bbc3-8bfccb83c69e",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:59:39.899560"
+  },
+  "d927b71c-5c0e-405b-84ed-9cc777908588": {
+    "id": "d927b71c-5c0e-405b-84ed-9cc777908588",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T11:59:40.707738"
+  },
+  "bee81fac-d551-4b30-8bc7-f7cef3c7a571": {
+    "id": "bee81fac-d551-4b30-8bc7-f7cef3c7a571",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:00:11.366550"
+  },
+  "dada6fa5-ae33-4b9d-9264-5dda37ea0789": {
+    "id": "dada6fa5-ae33-4b9d-9264-5dda37ea0789",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:00:25.595961"
+  },
+  "717731f2-1b4a-4701-a425-d98f2f237f7e": {
+    "id": "717731f2-1b4a-4701-a425-d98f2f237f7e",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:00:27.927968"
+  },
+  "e33a81c7-07ff-4be8-827c-6f324e56eb07": {
+    "id": "e33a81c7-07ff-4be8-827c-6f324e56eb07",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:07:52.539836"
+  },
+  "1d66f065-beb0-4cb4-86a7-70ab46811e26": {
+    "id": "1d66f065-beb0-4cb4-86a7-70ab46811e26",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:08:17.237157"
+  },
+  "db7c82de-373e-469d-8728-ae616cecec11": {
+    "id": "db7c82de-373e-469d-8728-ae616cecec11",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:07:56.446596"
+  },
+  "6e18371f-a4e9-415f-b572-59c2b0497651": {
+    "id": "6e18371f-a4e9-415f-b572-59c2b0497651",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:07:59.379590"
+  },
+  "7895fb5c-8523-4e97-a428-70981e030fa8": {
+    "id": "7895fb5c-8523-4e97-a428-70981e030fa8",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:08:01.920584"
+  },
+  "d2691b5c-80f9-441c-b2c2-e1ac724e5d0e": {
+    "id": "d2691b5c-80f9-441c-b2c2-e1ac724e5d0e",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:08:03.922585"
+  },
+  "d7ffb58f-74ae-4882-b0f5-e0b1817f799c": {
+    "id": "d7ffb58f-74ae-4882-b0f5-e0b1817f799c",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:08:06.200586"
+  },
+  "f01f796c-54f3-4dd3-8f2a-5a9d517cebb9": {
+    "id": "f01f796c-54f3-4dd3-8f2a-5a9d517cebb9",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:08:17.195161"
+  },
+  "a80cdac6-5c14-482a-9283-cf0c70ce1e24": {
+    "id": "a80cdac6-5c14-482a-9283-cf0c70ce1e24",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:24:51.054426"
+  },
+  "de7fc2b8-c661-457e-a5c4-ed4dd8106366": {
+    "id": "de7fc2b8-c661-457e-a5c4-ed4dd8106366",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:25:05.887522"
+  },
+  "b6731e1b-bb47-4922-a88b-50679b3bd452": {
+    "id": "b6731e1b-bb47-4922-a88b-50679b3bd452",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:24:54.288618"
+  },
+  "f950feaf-fccb-40e8-8ed6-5e312e2c0509": {
+    "id": "f950feaf-fccb-40e8-8ed6-5e312e2c0509",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:24:57.446123"
+  },
+  "98187ee2-46f6-4ed2-8592-a51df4c5117d": {
+    "id": "98187ee2-46f6-4ed2-8592-a51df4c5117d",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:25:00.228736"
+  },
+  "127ec2e0-b1d4-452a-a21e-4a8aea634e92": {
+    "id": "127ec2e0-b1d4-452a-a21e-4a8aea634e92",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:25:02.571520"
+  },
+  "a34e2fdc-2738-488d-88e5-fe911a0bacc2": {
+    "id": "a34e2fdc-2738-488d-88e5-fe911a0bacc2",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:25:04.249929"
+  },
+  "5b4009c5-5239-44a1-a4a1-725e36f442ec": {
+    "id": "5b4009c5-5239-44a1-a4a1-725e36f442ec",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:25:05.850402"
+  },
+  "d9df5442-ac86-49e7-982b-55aede81a794": {
+    "id": "d9df5442-ac86-49e7-982b-55aede81a794",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:32:05.894351"
+  },
+  "ddd175a5-abee-4518-a753-5775e7a1bea5": {
+    "id": "ddd175a5-abee-4518-a753-5775e7a1bea5",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:32:27.949721"
+  },
+  "084b26fe-4166-4df6-914f-3936ff093a73": {
+    "id": "084b26fe-4166-4df6-914f-3936ff093a73",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:32:08.646635"
+  },
+  "9031724b-8258-4b6e-bcc4-c372f154d5ba": {
+    "id": "9031724b-8258-4b6e-bcc4-c372f154d5ba",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:32:09.854971"
+  },
+  "90d14cde-45e9-4a92-8029-ba4ba4193657": {
+    "id": "90d14cde-45e9-4a92-8029-ba4ba4193657",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:32:11.340983"
+  },
+  "530e0318-14a1-4c1a-8ae4-91ea20e1a72a": {
+    "id": "530e0318-14a1-4c1a-8ae4-91ea20e1a72a",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:32:13.084029"
+  },
+  "78fe3684-18d8-4fce-9ccc-6c8c789ee27f": {
+    "id": "78fe3684-18d8-4fce-9ccc-6c8c789ee27f",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:32:14.410564"
+  },
+  "e9fb293a-40ab-41a5-b554-ef6b268d30da": {
+    "id": "e9fb293a-40ab-41a5-b554-ef6b268d30da",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:32:26.663398"
+  },
+  "81090b7d-97b0-4481-b3af-f000a2e4650b": {
+    "id": "81090b7d-97b0-4481-b3af-f000a2e4650b",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:32:27.909710"
+  },
+  "5c3bdfc5-8469-445b-ae60-8d0e3c019663": {
+    "id": "5c3bdfc5-8469-445b-ae60-8d0e3c019663",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:43:44.837735"
+  },
+  "0be25150-d918-4fab-971a-59608bd6ab1f": {
+    "id": "0be25150-d918-4fab-971a-59608bd6ab1f",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T12:43:56.770538"
+  },
+  "a20fcf8b-90ec-4208-8240-a4fe7274964e": {
+    "id": "a20fcf8b-90ec-4208-8240-a4fe7274964e",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:43:48.077026"
+  },
+  "cfe96f68-6bcd-45ec-b5fd-ed9cda20b611": {
+    "id": "cfe96f68-6bcd-45ec-b5fd-ed9cda20b611",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:43:50.688657"
+  },
+  "13384687-c8b9-45e9-abb5-18d18847148f": {
+    "id": "13384687-c8b9-45e9-abb5-18d18847148f",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:43:52.203420"
+  },
+  "95878f30-7a4a-4b24-bf55-6d11a8f0de73": {
+    "id": "95878f30-7a4a-4b24-bf55-6d11a8f0de73",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:43:53.721740"
+  },
+  "e0634d9d-f746-4820-a703-c708724bade6": {
+    "id": "e0634d9d-f746-4820-a703-c708724bade6",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:43:55.005775"
+  },
+  "75fd52ae-f66c-4019-97e9-3fad477a52ab": {
+    "id": "75fd52ae-f66c-4019-97e9-3fad477a52ab",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T12:43:56.727512"
+  },
+  "f0bc1b8f-29f7-4f98-9715-97a0728b8f48": {
+    "id": "f0bc1b8f-29f7-4f98-9715-97a0728b8f48",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T13:39:34.077055"
+  },
+  "264927f1-538d-4f99-961d-b15fc496ff7b": {
+    "id": "264927f1-538d-4f99-961d-b15fc496ff7b",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "ESCALATE_TO_HUMAN",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T14:25:11.340912"
+  },
+  "8018aca5-5092-434d-bfca-9fa1403053af": {
+    "id": "8018aca5-5092-434d-bfca-9fa1403053af",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T14:37:55.716617"
+  },
+  "0f73482d-ffdd-48a3-8f60-1df54c853195": {
+    "id": "0f73482d-ffdd-48a3-8f60-1df54c853195",
+    "state": "ENRICHING",
+    "category": "UNKNOWN",
+    "subcategory": "UNCLASSIFIED",
+    "confidence": 0.3,
+    "decision": "OBSERVE_ONLY",
+    "summary": "Phoenix detected abnormal behavior but could not confidently classify it.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-18T14:41:14.951135"
+  },
+  "123e22b7-a785-44a5-bef4-5639e26fc35e": {
+    "id": "123e22b7-a785-44a5-bef4-5639e26fc35e",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "ESCALATE_TO_HUMAN",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T14:42:59.793874"
+  },
+  "918e9365-ca94-455c-b7e9-066269133a8a": {
+    "id": "918e9365-ca94-455c-b7e9-066269133a8a",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T15:42:13.320123"
+  },
+  "16948bdc-88de-47b1-bb1b-5771e76195fd": {
+    "id": "16948bdc-88de-47b1-bb1b-5771e76195fd",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "ESCALATE_TO_HUMAN",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Phase 12 resolution contracts",
+      "actions": [
+        {
+          "description": "Handle the RuntimeException explicitly. Avoid throwing raw RuntimeException from controllers.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-18T15:46:21.165487"
+  }
+}
