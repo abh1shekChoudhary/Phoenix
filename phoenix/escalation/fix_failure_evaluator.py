@@ -1,6 +1,11 @@
 from phoenix.escalation.escalation_level import EscalationLevel
 
 
+WARNING_THRESHOLD = 2
+STRATEGY_UPGRADE_THRESHOLD = 3
+CRITICAL_THRESHOLD = 5
+
+
 class FixFailureEvaluator:
     def evaluate(
         self,
@@ -9,15 +14,18 @@ class FixFailureEvaluator:
         current_fingerprint: str,
     ) -> bool:
 
+        # No fix attempted yet
         if not incident.fix_attempted:
             return False
 
         if not incident.last_fix_attempt_at:
             return False
 
+        # Failure happened before fix
         if signal_timestamp <= incident.last_fix_attempt_at:
             return False
 
+        # Different failure
         if incident.failure_fingerprint != current_fingerprint:
             return False
 
@@ -26,15 +34,18 @@ class FixFailureEvaluator:
 
         count = incident.post_fix_reoccurrence_count
 
-        if count == 1:
-            incident.escalation_level = EscalationLevel.WARNING
-
-        elif count == 2:
-            incident.escalation_level = EscalationLevel.HIGH
-
-        elif count >= 4:
+        if count >= CRITICAL_THRESHOLD:
             incident.escalation_level = EscalationLevel.CRITICAL
             incident.auto_resolution_locked = True
-            incident.force_manual_approval = True
+            incident.strategy_locked = True
+
+        elif count >= STRATEGY_UPGRADE_THRESHOLD:
+            incident.escalation_level = EscalationLevel.HIGH
+
+        elif count >= WARNING_THRESHOLD:
+            incident.escalation_level = EscalationLevel.WARNING
+
+        else:
+            incident.escalation_level = EscalationLevel.INFO
 
         return True

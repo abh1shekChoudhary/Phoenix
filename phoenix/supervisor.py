@@ -14,7 +14,6 @@ from phoenix.decision_policy import DecisionPolicy
 
 from phoenix.execution.executor import Executor
 from phoenix.execution.execution_plan_builder import ExecutionPlanBuilder
-
 from phoenix.patching.patch_generator import PatchGenerator
 
 from phoenix.approval.approval_handler import ApprovalHandler
@@ -31,6 +30,13 @@ from phoenix.resolution.resolution_builder import ResolutionBuilder
 from phoenix.ai_diagnoser import AIDiagnoser
 
 from phoenix.escalation.fix_failure_evaluator import FixFailureEvaluator
+from phoenix.strategy.strategy_manager import StrategyManager
+
+from phoenix.learning.strategy_performance_repository import (
+    StrategyPerformanceRepository,
+)
+from phoenix.learning.strategy_optimizer import StrategyOptimizer
+
 from phoenix.classifier import FailureClassifier
 
 
@@ -46,7 +52,7 @@ class Supervisor:
         self.buffer = LogBuffer()
         self.detector = FailureDetector()
 
-        # Incident lifecycle
+        # Lifecycle
         self.incident_manager = IncidentManager()
         self.reasoner = IncidentReasoner()
         self.policy = DecisionPolicy()
@@ -54,14 +60,15 @@ class Supervisor:
         # AI
         self.ai_diagnoser = AIDiagnoser()
 
-        # Resolution & execution
+        # Resolution
         self.resolution_builder = ResolutionBuilder()
         self.patch_generator = PatchGenerator()
         self.executor = Executor()
         self.execution_plan_builder = ExecutionPlanBuilder()
 
-        # Escalation
+        # Escalation & Strategy
         self.fix_failure_evaluator = FixFailureEvaluator()
+        self.strategy_manager = StrategyManager()
 
         # Approval
         self.approval_handler = ApprovalHandler()
@@ -71,13 +78,19 @@ class Supervisor:
             Path("phoenix_data/incidents.json")
         )
 
+        self.strategy_repo = StrategyPerformanceRepository(
+            Path("phoenix_data/strategy_performance.json")
+        )
+
+        self.strategy_optimizer = StrategyOptimizer(self.strategy_repo)
+
         # Diagnostics
         self.classifier = FailureClassifier()
 
-        # Stack trace handling
+        # Stack trace
         self.stacktrace_collector = JavaStackTraceCollector()
 
-        # Context discovery
+        # Context
         self.context_resolver = JavaContextResolver(
             project_root=Path(
                 self.config.get("execution", "working_directory")
@@ -135,10 +148,28 @@ class Supervisor:
 
             now = datetime.utcnow()
             signal_ts = time.time()
+            # --------------------------------------------------
+            # STRATEGY AUTO-SELECTION (Phase 14.3A)
+            # --------------------------------------------------
 
-            # --------------------------------------------------
-            # FIX FAILURE ESCALATION
-            # --------------------------------------------------
+            if incident.state == IncidentState.DETECTED and incident.failure_fingerprint:
+
+                best_version = self.strategy_optimizer.get_best_strategy(
+                    incident.failure_fingerprint
+                )
+
+                if incident.strategy_version != best_version:
+                    incident.strategy_version = best_version
+
+                    print(
+                        f"[PHOENIX] 🧠 Selected Strategy V{best_version} "
+                        f"based on historical performance"
+                    )
+
+
+            # ==================================================
+            # FIX FAILURE + STRATEGY EVOLUTION
+            # ==================================================
 
             current_fp = incident.failure_fingerprint
 
@@ -149,25 +180,35 @@ class Supervisor:
                     current_fp,
                 ):
                     print(
-                        f"[PHOENIX] 🚨 FIX FAILURE DETECTED "
-                        f"(count={incident.post_fix_reoccurrence_count}, "
-                        f"level={incident.escalation_level.name})"
+                        f"[PHOENIX] 🔁 Fix failure detected "
+                        f"(count={incident.post_fix_reoccurrence_count})"
                     )
 
-                    if incident.auto_resolution_locked:
-                        print("[PHOENIX] ⛔ Auto-remediation LOCKED")
+                    # 🔴 RECORD FAILURE FOR LEARNING
+                    self.strategy_repo.record(
+                        fingerprint=current_fp,
+                        strategy_version=incident.strategy_version,
+                        success=False,
+                    )
+
+                    action = self.strategy_manager.evaluate(incident)
+
+                    if action == "UPGRADE":
+                        print(
+                            f"[PHOENIX] 🚀 Strategy upgraded to V{incident.strategy_version}"
+                        )
+
+                    elif action == "LOCK":
+                        print(
+                            "[PHOENIX] ⛔ Strategy LOCKED — manual intervention required"
+                        )
+                        incident.strategy_locked = True
                         incident.decision = "ESCALATE_TO_HUMAN"
 
-                    if incident.alternate_strategy_attempted:
-                        print("[PHOENIX] 🔄 Switching to alternate remediation strategy")
+            # ==================================================
+            # MONITORING / COOLDOWN
+            # ==================================================
 
-                    if incident.sandbox_validation_attempted:
-                        print("[PHOENIX] 🧪 Initiating sandbox validation mode")
-
-
-            # --------------------------------------------------
-            # COOLDOWN / MONITORING
-            # --------------------------------------------------
             if incident.state == IncidentState.MONITORING:
                 if incident.cooldown_until and now < incident.cooldown_until:
                     print(
@@ -178,20 +219,16 @@ class Supervisor:
                     yield line
                     continue
                 else:
-                    # Cooldown expired successfully → reset strategy
                     print("[PHOENIX] ✅ Cooldown complete — resetting strategy state")
 
                     incident.post_fix_reoccurrence_count = 0
-                    incident.alternate_strategy_attempted = False
-                    incident.sandbox_validation_attempted = False
                     incident.strategy_version = 1
-
+                    incident.strategy_locked = False
                     incident.state = IncidentState.DETECTED
 
-
-            # --------------------------------------------------
+            # ==================================================
             # ENRICHMENT
-            # --------------------------------------------------
+            # ==================================================
 
             if is_new:
                 incident.state = IncidentState.ENRICHING
@@ -201,7 +238,6 @@ class Supervisor:
                 print(f"  ID: {incident.id}")
                 print(f"  Category: {incident.category}")
                 print(f"  Subcategory: {incident.subcategory}")
-                print(f"  Confidence: {incident.confidence}")
 
             trace = self.stacktrace_collector.flush_if_any()
             if trace:
@@ -237,18 +273,17 @@ class Supervisor:
                 yield line
                 continue
 
-            # --------------------------------------------------
+            # ==================================================
             # ANALYSIS
-            # --------------------------------------------------
+            # ==================================================
 
             diagnosis = self.ai_diagnoser.diagnose(incident)
-
             print("[PHOENIX] 🧠 AI Diagnosis")
             print(f"  Root cause: {diagnosis.likely_root_cause}")
 
-            # --------------------------------------------------
+            # ==================================================
             # RESOLUTION
-            # --------------------------------------------------
+            # ==================================================
 
             incident.state = IncidentState.ANALYZED
             resolution = self.resolution_builder.build(incident)
@@ -256,11 +291,14 @@ class Supervisor:
             incident.state = IncidentState.PLANNED
 
             print("[PHOENIX] 📦 Resolution Plan")
-            print(f"  Problem: {resolution.problem_summary}")
+            print(
+                f"  Problem: {resolution.problem_summary} "
+                f"(Strategy V{incident.strategy_version})"
+            )
 
-            # --------------------------------------------------
+            # ==================================================
             # APPROVAL
-            # --------------------------------------------------
+            # ==================================================
 
             incident.state = IncidentState.AWAITING_APPROVAL
             decision = self.approval_handler.request_decision(incident)
@@ -271,6 +309,13 @@ class Supervisor:
                 incident.fix_attempted = True
                 incident.last_fix_attempt_at = time.time()
                 incident.post_fix_reoccurrence_count = 0
+
+                # 🟢 RECORD SUCCESS
+                self.strategy_repo.record(
+                    fingerprint=current_fp,
+                    strategy_version=incident.strategy_version,
+                    success=True,
+                )
 
                 fp_source = (
                     resolution.problem_summary
@@ -300,6 +345,13 @@ class Supervisor:
 
             elif decision == ApprovalDecision.REJECT:
                 incident.state = IncidentState.CLOSED
+
+                # 🔴 RECORD REJECTION AS FAILURE
+                self.strategy_repo.record(
+                    fingerprint=current_fp,
+                    strategy_version=incident.strategy_version,
+                    success=False,
+                )
 
             self.repository.persist(incident)
 

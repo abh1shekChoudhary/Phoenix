@@ -6,8 +6,7 @@ from phoenix.resolution.action_policy import ActionPolicy
 
 class ResolutionBuilder:
     """
-    Converts an Incident into a ResolutionPlan
-    WITHOUT executing anything.
+    Strategy-aware resolution builder.
     """
 
     def build(self, incident: Incident) -> ResolutionPlan:
@@ -17,12 +16,31 @@ class ResolutionBuilder:
         actions = []
 
         if domain == ProblemDomain.CODE and problem == ProblemType.UNHANDLED_RUNTIME:
+
+            if incident.strategy_version == 1:
+                description = (
+                    "Wrap RuntimeException in controller using try/catch "
+                    "and return proper HTTP 500 response."
+                )
+
+            elif incident.strategy_version == 2:
+                description = (
+                    "Introduce @ControllerAdvice global exception handler "
+                    "to centralize RuntimeException handling."
+                )
+
+            elif incident.strategy_version == 3:
+                description = (
+                    "Implement structured error handling with custom "
+                    "error response model and centralized exception strategy."
+                )
+
+            else:
+                description = "Manual intervention required."
+
             actions.append(
                 ResolutionAction(
-                    description=(
-                        "Handle the RuntimeException explicitly. "
-                        "Avoid throwing raw RuntimeException from controllers."
-                    ),
+                    description=description,
                     affected_files=self._guess_files(incident),
                     risk_level="LOW",
                     requires_human_approval=True,
@@ -35,8 +53,10 @@ class ResolutionBuilder:
             actions=actions,
             confidence=incident.confidence,
             safe_to_auto_apply=ActionPolicy.allow_auto_fix(domain, problem),
-            notes="Generated under Phase 12 resolution contracts",
+            notes=f"Generated under Strategy V{incident.strategy_version}",
         )
+
+    # -----------------------------------------------------
 
     def _infer_domain(self, incident: Incident) -> ProblemDomain:
         if incident.category == "CODE":

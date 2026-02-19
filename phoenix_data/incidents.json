@@ -2390,5 +2390,297 @@
       ]
     },
     "updated_at": "2026-02-18T15:46:21.165487"
+  },
+  "01fd2d1a-ea5c-4486-9101-89409063b562": {
+    "id": "01fd2d1a-ea5c-4486-9101-89409063b562",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "ESCALATE_TO_HUMAN",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V1",
+      "actions": [
+        {
+          "description": "Wrap RuntimeException in controller using try/catch and return proper HTTP 500 response.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T07:18:50.769284"
+  },
+  "3059150a-f30d-4b47-8c9f-9a44c38b1aab": {
+    "id": "3059150a-f30d-4b47-8c9f-9a44c38b1aab",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V1",
+      "actions": [
+        {
+          "description": "Wrap RuntimeException in controller using try/catch and return proper HTTP 500 response.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T07:36:56.522630"
+  },
+  "65a74767-40f0-4f4b-aa0a-169c4cfb6668": {
+    "id": "65a74767-40f0-4f4b-aa0a-169c4cfb6668",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V1",
+      "actions": [
+        {
+          "description": "Wrap RuntimeException in controller using try/catch and return proper HTTP 500 response.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T07:37:59.320767"
+  },
+  "2a22119d-db07-42cf-8e94-7f77e99615ab": {
+    "id": "2a22119d-db07-42cf-8e94-7f77e99615ab",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "ESCALATE_TO_HUMAN",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V1",
+      "actions": [
+        {
+          "description": "Wrap RuntimeException in controller using try/catch and return proper HTTP 500 response.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T07:42:58.297648"
+  },
+  "2c54dddb-995a-4107-a6ba-c022e4727d6b": {
+    "id": "2c54dddb-995a-4107-a6ba-c022e4727d6b",
+    "state": "ENRICHING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": null,
+    "resolution_plan": null,
+    "updated_at": "2026-02-19T07:52:36.777670"
+  },
+  "764ed679-8403-49b8-9cbd-25949d1cb5e7": {
+    "id": "764ed679-8403-49b8-9cbd-25949d1cb5e7",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "ESCALATE_TO_HUMAN",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V1",
+      "actions": [
+        {
+          "description": "Wrap RuntimeException in controller using try/catch and return proper HTTP 500 response.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T07:57:11.114288"
+  },
+  "bd7f03b4-4854-4afd-98a2-edd8f7243a17": {
+    "id": "bd7f03b4-4854-4afd-98a2-edd8f7243a17",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "ESCALATE_TO_HUMAN",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V1",
+      "actions": [
+        {
+          "description": "Wrap RuntimeException in controller using try/catch and return proper HTTP 500 response.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T08:08:20.569561"
+  },
+  "87ee7b2b-ceb7-40db-bf6e-8823ebe2de28": {
+    "id": "87ee7b2b-ceb7-40db-bf6e-8823ebe2de28",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V3",
+      "actions": [
+        {
+          "description": "Implement structured error handling with custom error response model and centralized exception strategy.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T08:33:05.994070"
+  },
+  "53dd09b5-1106-4f98-854f-12ad05eed02a": {
+    "id": "53dd09b5-1106-4f98-854f-12ad05eed02a",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V3",
+      "actions": [
+        {
+          "description": "Implement structured error handling with custom error response model and centralized exception strategy.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T08:42:02.290825"
+  },
+  "38a10ace-4985-43af-b6a0-769f787943c8": {
+    "id": "38a10ace-4985-43af-b6a0-769f787943c8",
+    "state": "DETECTED",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V3",
+      "actions": [
+        {
+          "description": "Implement structured error handling with custom error response model and centralized exception strategy.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T09:03:33.121474"
+  },
+  "9c1f0ead-70b1-4343-9cf6-c9be23536b0b": {
+    "id": "9c1f0ead-70b1-4343-9cf6-c9be23536b0b",
+    "state": "MONITORING",
+    "category": "CODE",
+    "subcategory": "UNHANDLED_RUNTIME",
+    "confidence": 0.7,
+    "decision": "REQUIRE_HUMAN_REVIEW",
+    "summary": "An unhandled runtime exception occurred during request processing.",
+    "context_summary": "This code block contains 30 lines related to the failure.",
+    "resolution_plan": {
+      "problem_summary": "CODE / UNHANDLED_RUNTIME",
+      "likely_root_cause": "An unhandled runtime exception occurred during request processing.",
+      "confidence": 0.7,
+      "safe_to_auto_apply": false,
+      "notes": "Generated under Strategy V2",
+      "actions": [
+        {
+          "description": "Introduce @ControllerAdvice global exception handler to centralize RuntimeException handling.",
+          "affected_files": [
+            "(see context summary)"
+          ],
+          "risk_level": "LOW",
+          "requires_human_approval": true
+        }
+      ]
+    },
+    "updated_at": "2026-02-19T09:13:20.958968"
   }
 }

@@ -8,7 +8,6 @@ from phoenix.signals import FailureSignal
 from phoenix.token_budget import TokenBudget
 from phoenix.persistence.incident_state import IncidentState
 from phoenix.resolution.resolution_plan import ResolutionPlan
-from phoenix.escalation.escalation_level import EscalationLevel
 
 
 @dataclass
@@ -34,6 +33,9 @@ class Incident:
     # ---------- Context ----------
     context_expanded: bool = False
     token_budget: TokenBudget = field(default_factory=lambda: TokenBudget(4000))
+    has_stacktrace: bool = False
+    has_context: bool = False
+    confidence_ready: bool = False
 
     # ---------- Fingerprinting ----------
     failure_fingerprint: Optional[str] = None
@@ -47,10 +49,13 @@ class Incident:
     fix_attempted: bool = False
     last_fix_attempt_at: Optional[float] = None
 
-    # ---------- Escalation ----------
-    escalation_level: EscalationLevel = EscalationLevel.INFO
-    force_manual_approval: bool = False
-    auto_resolution_locked: bool = False
+    # ---------- Strategy System ----------
+    strategy_version: int = 1
+    max_strategy_version: int = 3
+    strategy_locked: bool = False
+
+    alternate_strategy_attempted: bool = False
+    sandbox_validation_attempted: bool = False
 
     # ---------- Lifecycle ----------
     state: IncidentState = IncidentState.DETECTED
@@ -63,14 +68,6 @@ class Incident:
     # ---------- Enrichment ----------
     enrichment_started_at: float = field(default_factory=time)
     last_enriched_at: float = field(default_factory=time)
-    has_stacktrace: bool = False
-    has_context: bool = False
-    confidence_ready: bool = False
-
-    # ---------- Strategy Tracking ----------
-    strategy_version: int = 1
-    alternate_strategy_attempted: bool = False
-    sandbox_validation_attempted: bool = False
 
     # ---------- Resolution ----------
     resolution_plan: Optional[ResolutionPlan] = None
